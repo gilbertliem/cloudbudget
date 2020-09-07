@@ -1,0 +1,44 @@
+body {
+    /* margin: 0; */
+    background-color: #c4c4c4;
+}
+
+.container {
+    background-color: #fff;
+    min-height: 50vh;
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    
+}
+
+.row {
+    /* background: turquoise; */
+    display: block;
+    justify-items: stretch;
+    position: relative;
+    padding: 0 3px;
+    margin: 5px;
+}
+
+.inside-row {
+    /* background: wheat; */
+    font-size: 15px;
+    padding: 8px ;
+}
+
+.row button {
+    background: lightcoral;
+} 
+
+li {
+    font-family: sans-serif;
+    font-size: 20px;
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 2px;
+    position: relative;
+    padding: 8px 5px;
+    border: 2px solid black;
+    text-align: underline ;
+}
